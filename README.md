@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website - Psychologist & Researcher</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu bản thân</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container">
     <header>
-        <h1>Your Name</h1>
-        <p>Psychologist & Researcher</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>Chào mừng đến với trang web của tôi!</h1>
+      <p>Xin chào, tôi là <span id="fullName">[Tên của bạn]</span></p>
+      <p>Nghề nghiệp: <span id="occupation">Nhà tâm lý học và Nghiên cứu tâm lý học</span></p>
     </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Introduce yourself, your background, and your research interests here.</p>
+
+    <section id="achievements">
+      <h2>Thành tích</h2>
+      <div class="achievement" id="achievement1">
+        <h3>Thành tích 1</h3>
+        <p class="details">[Thông tin chi tiết về thành tích 1]</p>
+      </div>
+      <div class="achievement" id="achievement2">
+        <h3>Thành tích 2</h3>
+        <p class="details">[Thông tin chi tiết về thành tích 2]</p>
+      </div>
+      <div class="achievement" id="achievement3">
+        <h3>Thành tích 3</h3>
+        <p class="details">[Thông tin chi tiết về thành tích 3]</p>
+      </div>
     </section>
     
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+    <section id="moreInfo">
+      <h2>Thông tin khác</h2>
+      <p id="bio">[Thông tin giới thiệu về bạn]</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
