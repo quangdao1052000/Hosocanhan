@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +8,57 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Chào mừng đến với trang web của tôi!</h1>
-      <div class="info-box" id="fullNameBox">
-        <h2>Tên của tôi</h2>
-        <p id="fullName">Nhập tên của bạn</p>
+    <!-- Phần thông tin cá nhân -->
+    <header class="profile">
+      <div class="profile-img">
+        <!-- Thay "avatar.jpg" bằng đường dẫn ảnh cá nhân của bạn -->
+        <img src="avatar.jpg" alt="Hình ảnh cá nhân">
       </div>
-      <div class="info-box" id="occupationBox">
-        <h2>Nghề nghiệp</h2>
-        <p id="occupation">Nhập nghề nghiệp của bạn</p>
-      </div>
+      <h1>Nguyễn Văn A</h1>
     </header>
-
-    <section id="achievements">
-      <h2>Thành tích</h2>
-      <div class="info-box" id="achievement1Box">
-        <h3>Thành tích 1</h3>
-        <p class="details">[Thông tin chi tiết về thành tích 1]</p>
+    
+    <!-- Các ô khung chứa thông tin -->
+    <section class="info-section">
+      <!-- Nghề nghiệp -->
+      <div class="info-box" id="professionBox">
+        <div class="info-header">
+          <h2>Nghề nghiệp</h2>
+          <span class="toggle-indicator">+</span>
+        </div>
+        <div class="info-content">
+          <p>Web Developer</p>
+          <p class="details">
+            Tôi là một nhà phát triển web với hơn 10 năm kinh nghiệm. Tôi chuyên xây dựng các ứng dụng web hiện đại, tối ưu và thân thiện với người dùng.
+          </p>
+        </div>
       </div>
-      <div class="info-box" id="achievement2Box">
-        <h3>Thành tích 2</h3>
-        <p class="details">[Thông tin chi tiết về thành tích 2]</p>
+      
+      <!-- Học vấn -->
+      <div class="info-box" id="educationBox">
+        <div class="info-header">
+          <h2>Học vấn</h2>
+          <span class="toggle-indicator">+</span>
+        </div>
+        <div class="info-content">
+          <p>Cử nhân Công nghệ Thông tin</p>
+          <p class="details">
+            Tôi đã tốt nghiệp Đại học Bách Khoa với chuyên ngành Công nghệ Thông tin, nơi tôi được đào tạo bài bản về lập trình, thiết kế hệ thống và phát triển phần mềm.
+          </p>
+        </div>
       </div>
-      <div class="info-box" id="achievement3Box">
-        <h3>Thành tích 3</h3>
-        <p class="details">[Thông tin chi tiết về thành tích 3]</p>
-      </div>
-    </section>
-
-    <section id="moreInfo">
-      <h2>Thông tin khác</h2>
-      <div class="info-box" id="bioBox">
-        <h3>Giới thiệu về tôi</h3>
-        <p class="details">[Thông tin giới thiệu về bạn]</p>
+      
+      <!-- Thành tích -->
+      <div class="info-box" id="achievementBox">
+        <div class="info-header">
+          <h2>Thành tích</h2>
+          <span class="toggle-indicator">+</span>
+        </div>
+        <div class="info-content">
+          <p>Giải thưởng Sáng tạo Công nghệ 2023</p>
+          <p class="details">
+            Nhờ các dự án đột phá về ứng dụng công nghệ trong kinh doanh, tôi đã được vinh danh với giải thưởng Sáng tạo Công nghệ 2023, minh chứng cho sự nỗ lực không ngừng.
+          </p>
+        </div>
       </div>
     </section>
   </div>
