@@ -3,66 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Giới thiệu bản thân</title>
+  <title>Giới Thiệu Bản Thân</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <!-- Phần thông tin cá nhân -->
-    <header class="profile">
-      <div class="profile-img">
-        <!-- Thay "avatar.jpg" bằng đường dẫn ảnh cá nhân của bạn -->
-        <img src="avatar.jpg" alt="Hình ảnh cá nhân">
-      </div>
-      <h1>Nguyễn Văn A</h1>
-    </header>
     
-    <!-- Các ô khung chứa thông tin -->
-    <section class="info-section">
-      <!-- Nghề nghiệp -->
-      <div class="info-box" id="professionBox">
-        <div class="info-header">
-          <h2>Nghề nghiệp</h2>
-          <span class="toggle-indicator">+</span>
-        </div>
-        <div class="info-content">
-          <p>Web Developer</p>
-          <p class="details">
-            Tôi là một nhà phát triển web với hơn 10 năm kinh nghiệm. Tôi chuyên xây dựng các ứng dụng web hiện đại, tối ưu và thân thiện với người dùng.
-          </p>
-        </div>
+    <!-- Thông tin cá nhân -->
+    <section id="personal-info">
+      <div class="info-box" id="nameBox">
+        <h2>Tên</h2>
+        <p>Nguyễn Văn A</p>
       </div>
-      
-      <!-- Học vấn -->
-      <div class="info-box" id="educationBox">
-        <div class="info-header">
-          <h2>Học vấn</h2>
-          <span class="toggle-indicator">+</span>
-        </div>
-        <div class="info-content">
-          <p>Cử nhân Công nghệ Thông tin</p>
-          <p class="details">
-            Tôi đã tốt nghiệp Đại học Bách Khoa với chuyên ngành Công nghệ Thông tin, nơi tôi được đào tạo bài bản về lập trình, thiết kế hệ thống và phát triển phần mềm.
-          </p>
-        </div>
+      <div class="info-box" id="photoBox">
+        <h2>Hình Ảnh Cá Nhân</h2>
+        <img src="https://via.placeholder.com/150" alt="Hình ảnh cá nhân">
       </div>
-      
-      <!-- Thành tích -->
-      <div class="info-box" id="achievementBox">
-        <div class="info-header">
-          <h2>Thành tích</h2>
-          <span class="toggle-indicator">+</span>
-        </div>
-        <div class="info-content">
-          <p>Giải thưởng Sáng tạo Công nghệ 2023</p>
-          <p class="details">
-            Nhờ các dự án đột phá về ứng dụng công nghệ trong kinh doanh, tôi đã được vinh danh với giải thưởng Sáng tạo Công nghệ 2023, minh chứng cho sự nỗ lực không ngừng.
-          </p>
+    </section>
+    
+    <!-- Nghề nghiệp -->
+    <section id="occupation-section">
+      <div class="info-box" id="occupationBox">
+        <h2>Nghề Nghiệp</h2>
+        <p class="summary">Front-end Developer</p>
+        <div class="details">
+          <p>Chuyên phát triển giao diện web sáng tạo sử dụng HTML, CSS và JavaScript.</p>
+          <p>Đã tham gia xây dựng nhiều dự án cho các công ty khởi nghiệp.</p>
         </div>
       </div>
     </section>
+    
+    <!-- Học vấn -->
+    <section id="education-section">
+      <div class="info-box" id="educationBox">
+        <h2>Học Vấn</h2>
+        <p class="summary">Cử nhân Công nghệ Thông tin</p>
+        <div class="details">
+          <p>Trường Đại học Bách Khoa, TP.HCM</p>
+          <p>Chuyên ngành: Phát triển phần mềm</p>
+          <p>Tốt nghiệp với thành tích xuất sắc.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Thành tích -->
+    <section id="achievements-section">
+      <div class="info-box" id="achievementBox">
+        <h2>Thành Tích</h2>
+        <p class="summary">Giải thưởng Lập trình trẻ</p>
+        <div class="details">
+          <p>Được trao giải thưởng Lập trình viên trẻ xuất sắc năm 2022.</p>
+          <p>Đạt thành tích cao trong các cuộc thi hackathon quốc tế.</p>
+        </div>
+      </div>
+    </section>
+    
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
