@@ -10,8 +10,8 @@
   <div class="container">
     <header>
       <h1>Chào mừng đến với trang web của tôi!</h1>
-      <p>Xin chào, tôi là <span id="fullName">[Tên của bạn]</span></p>
-      <p>Nghề nghiệp: <span id="occupation">Nhà tâm lý học và Nghiên cứu tâm lý học</span></p>
+      <p>Xin chào, tôi là <input type="text" id="fullName" placeholder="Nhập tên của bạn"></p>
+      <p>Nghề nghiệp: <input type="text" id="occupation" placeholder="Nhập nghề nghiệp của bạn"></p>
     </header>
 
     <section id="achievements">
@@ -32,7 +32,7 @@
     
     <section id="moreInfo">
       <h2>Thông tin khác</h2>
-      <p id="bio">[Thông tin giới thiệu về bạn]</p>
+      <textarea id="bio" placeholder="Nhập thông tin giới thiệu bản thân..."></textarea>
     </section>
   </div>
 
